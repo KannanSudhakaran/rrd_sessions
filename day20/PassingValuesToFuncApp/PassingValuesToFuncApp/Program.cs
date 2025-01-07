@@ -7,12 +7,26 @@ class Program {
 
     static void Main() {
 
-        // CaseStudy1();
+         CaseStudy1();
 
 
-        CaseStudy2();
+        //CaseStudy2();
+
+        //CaseStudy3();
     
     
+    }
+
+    private static void CaseStudy3()
+    {
+        int age = 40;
+        UpdateAgeListItemsToZero(ref age);
+        Console.WriteLine("age value is "+age);
+
+    }
+    static void UpdateAgeListItemsToZero(ref int myage)
+    {
+        myage = 0;
     }
 
     private static void CaseStudy2()
@@ -41,12 +55,12 @@ class Program {
     static void CaseStudy1()
     {
         int age = 30;
-        UpdateAgeToZero(age);
+        UpdateAgeToZero( age);
         Console.WriteLine("Age after calling UpdateAgeToZero: " + age);
     }
 
-     static void UpdateAgeToZero(int age)
+     static void UpdateAgeToZero( int agePassed)
     {
-        age = 0;
+        agePassed = 0;
     }
 }
