@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleAbstractionApp", "RectangleAbstractionApp\RectangleAbstractionApp.csproj", "{554F396E-C5B4-43E9-B5C9-3BDB949B923A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{554F396E-C5B4-43E9-B5C9-3BDB949B923A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554F396E-C5B4-43E9-B5C9-3BDB949B923A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554F396E-C5B4-43E9-B5C9-3BDB949B923A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554F396E-C5B4-43E9-B5C9-3BDB949B923A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22AC84AE-5E4D-4088-AB2B-120E6E65E63D}
+	EndGlobalSection
+EndGlobal
