@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangelEncapsulationREfacotred", "RectangelEncapsulationREfacotred\RectangelEncapsulationREfacotred.csproj", "{03C06E0C-6786-4532-B34A-72A513B8E189}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03C06E0C-6786-4532-B34A-72A513B8E189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C06E0C-6786-4532-B34A-72A513B8E189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C06E0C-6786-4532-B34A-72A513B8E189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C06E0C-6786-4532-B34A-72A513B8E189}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE47A180-F36B-4774-94C9-67B9F7F011F4}
+	EndGlobalSection
+EndGlobal

@@ -7,10 +7,10 @@ class Program {
 
     static void Main() {
 
-         CaseStudy1();
+         //CaseStudy1();
 
 
-        //CaseStudy2();
+        CaseStudy2();
 
         //CaseStudy3();
     
@@ -31,11 +31,11 @@ class Program {
 
     private static void CaseStudy2()
     {
-        int[] ageList = { 40,50,60 ,70};//agelist is a pointer to the array object
+        int[] ageList = new int[4] { 40,50,60 ,70};//agelist is a pointer to the array object
 
         Console.WriteLine($"hashcode of ageList is  {ageList.GetHashCode()} ");
-        UpdateAgeListItemsToZero(ageList);
-       // UpdateAgeListItemsToZero((int[])ageList.Clone());
+        //UpdateAgeListItemsToZero(ageList);
+        UpdateAgeListItemsToZero((int[])ageList.Clone());
         foreach (var age in ageList)
         {
             Console.WriteLine("Age after calling UpdateAgeListItemsToZero: " + age);
