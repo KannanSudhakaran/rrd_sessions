@@ -7,6 +7,10 @@ namespace RectnagleWithPropertiesApp
     {
         static void Main(string[] args)
         {
+
+           Random r = new Random();
+            int val = r.Next(1, 50);
+                Console.WriteLine(val);
             
 
             Rectangle r1 = new Rectangle();
