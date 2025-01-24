@@ -1,5 +1,6 @@
 ﻿
 using ConstructorInheritanceApp.Models;
+using System.Net.WebSockets;
 
 namespace ConstructorInheritanceApp
 {
@@ -11,6 +12,8 @@ namespace ConstructorInheritanceApp
 
           //  CaseStudy2();
             CaseStudy3();
+            var c2 = new ChildV1();
+            
         }
 
         private static void CaseStudy3()
