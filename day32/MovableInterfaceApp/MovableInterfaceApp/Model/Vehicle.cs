@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace MovableInterfaceApp.Model
 {
-    internal abstract class Vehicle : IMovable
+    public interface IDiscription { 
+    
+        string Desription { get; }
+    }
+    internal abstract  class Vehicle : IMovable,IDiscription
     {
         private string _brand;
         private string _chasisNo;
@@ -19,6 +23,13 @@ namespace MovableInterfaceApp.Model
 
         public string Brand { get { return _brand; } }
         public string ChasisNo { get { return _chasisNo; }}
+
+        public string Desription {
+
+            get {
+               return "Desxription of Vehicle goes here...!!";
+            }
+        }
 
         public abstract void Move();
      
