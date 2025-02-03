@@ -5,6 +5,25 @@ using System.Collections.Generic;
 
 namespace CustomerHashSetApp
 {
+    class MyMarkerAttrbute : Attribute { //Marker
+    
+    }
+
+    class Abc {
+
+        [MyMarkerAttrbute]
+        void M1() { }
+
+        [MyMarkerAttrbute]
+        void M2() { }
+
+        void M3() { 
+        
+        }
+    
+    }
+
+
     internal class Program
     {
         static void Main(string[] args)
