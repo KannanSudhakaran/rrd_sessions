@@ -13,11 +13,12 @@
         }
 
 
-        public void AddAddress(Address address) { 
-          //validate address fields
-          Addresses.Add(address);
-        
-        }
+        //public void AddAddress(Address address)
+        //{
+        //    //validate address fields
+        //    Addresses.Add(address);
+
+        //}
 
     }
 }

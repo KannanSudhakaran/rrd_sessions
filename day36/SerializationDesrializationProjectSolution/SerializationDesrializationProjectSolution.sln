@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerCommonLib", "Custom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerSerializationApp", "CustomerSerializationApp\CustomerSerializationApp.csproj", "{6B478E50-F85A-4296-A0FE-63660A4DE198}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerDeserializationApp", "CustomerDeserializationApp\CustomerDeserializationApp.csproj", "{AB5286B2-E463-4F6E-8BEC-83DC3C0164F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6B478E50-F85A-4296-A0FE-63660A4DE198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B478E50-F85A-4296-A0FE-63660A4DE198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B478E50-F85A-4296-A0FE-63660A4DE198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5286B2-E463-4F6E-8BEC-83DC3C0164F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5286B2-E463-4F6E-8BEC-83DC3C0164F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5286B2-E463-4F6E-8BEC-83DC3C0164F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5286B2-E463-4F6E-8BEC-83DC3C0164F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
