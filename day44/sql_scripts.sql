@@ -127,8 +127,70 @@ FROM DEPT LEFT OUTER JOIN EMP
 ON EMP.DEPT_DEPTNO = DEPT.DEPTNO
 where EMP.ENAME is null
 
+select d.DEPTNO, d.DNAME,e.ENAME
+FROM DEPT d LEFT OUTER JOIN EMP e
+ON e.DEPT_DEPTNO = d.DEPTNO
+where e.ENAME is null
+
+select * from emp;
+
+-- all employee name and thier manager names
+select x.ENAME,x.MGR,y.ENAME as Manager,y.EMPNO
+from EMP x inner join EMP y
+on x.MGR = y.EMPNO
+
+select x.ENAME,x.MGR,y.ENAME as Manager,y.EMPNO
+from EMP x left join EMP y
+on x.MGR = y.EMPNO
+order by x.ENAME
+
+SELECT E.ENAME,D.DNAME--,MGR.ENAME as 'Manager'
+FROM EMP E JOIN DEPT D
+ON E.DEPT_DEPTNO = D.DEPTNO
+JOIN EMP MGR
+ON  E.MGR = MGR.EMPNO
+ORDER BY E.ENAME
+--- tasnactions
+create table dummy (id int)
+
+insert into dummy values(100);
+select * from dummy;
+insert into dummy values(5);
+insert into dummy values(51);
+insert into dummy values(3);
 
 
+begin transaction txn
+  begin try 
+   insert into dummy values(566);
+   insert into dept values(10,'it','locaiton');
+   select * from dummy
+
+   commit
+   end try
+   begin catch
+     rollback
+   end catch
+ commit
+
+ select * from dummy
+ -- insert,update,delete
+ alter procedure GEtEmpDetails 
+ as
+begin
+  SELECT E.ENAME,D.DNAME,MGR.ENAME--,MGR.ENAME as 'Manager'
+	FROM EMP E JOIN DEPT D
+	ON E.DEPT_DEPTNO = D.DEPTNO
+	JOIN EMP MGR
+	ON  E.MGR = MGR.EMPNO
+	ORDER BY E.ENAME
+ end
+
+ exec GEtEmpDetails
+
+ sp_helptext 'GEtEmpDetails'
+ 
+ select getDate();
 
 
 
