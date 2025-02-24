@@ -13,7 +13,7 @@ var app = builder.Build();//abover build register sevices
 //app.MapGet("/", () => "Hello World!");
 
 app.UseMiddleware<RddLogAndEmailingMiddleWare>();
-app.MapDefaultControllerRoute();
+//app.MapDefaultControllerRoute();
 //{controller}/{action} , /Customer/GetDetails
 // {controller=home}/{action=Index}
 
