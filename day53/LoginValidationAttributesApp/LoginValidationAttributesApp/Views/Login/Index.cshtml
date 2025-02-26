@@ -29,9 +29,13 @@
 
         <p>
             username :@Html.TextBoxFor(m => m.UserName)
+
+            @Html.ValidationMessageFor(m=>m.UserName)
+          
         </p>
         <p>
             userpassword :@Html.PasswordFor(m => m.UserPassword)
+            @Html.ValidationMessageFor(m =>m.UserPassword)
         </p>
 
 
