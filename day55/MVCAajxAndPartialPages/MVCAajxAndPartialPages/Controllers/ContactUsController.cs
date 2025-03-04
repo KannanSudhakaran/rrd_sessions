@@ -33,6 +33,12 @@ namespace MasterLayoutApp.Controllers
 
         }
 
+
+        //public async Task< IActionResult> Foo() {
+        //   var data= await  _service.GetDataAsync();
+        //    return View(data);
+        //}
+
         public async Task<IActionResult> GetTimeStampNonBlocking()
         {
             var beforeThead = Thread.CurrentThread.ManagedThreadId;
